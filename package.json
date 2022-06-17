@@ -2,7 +2,7 @@
   "name": "supermercado-sq",
   "description": "Repositório criado para armazenar os códigos do projeto Supermercado SQ, proposto no Atlântico Academy Bootcamp Fullstack oferecido pelo [Instituto Atlântico](https://www.linkedin.com/company/instituto-atlantico/)",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "engines": {
     "node": ">= 0.8.14"
   },
