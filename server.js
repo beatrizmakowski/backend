@@ -9,6 +9,7 @@ dotenv.config({ path: '.env' })
 
 const app = express()
 const port = process.env.PORT || 3000
+const host = '0.0.0.0';
 const swaggerOptions = {
     swaggerDefinition: {
         openapi: '3.0.0',
@@ -46,6 +47,6 @@ app.use(express.json())
 
 app.use('/', routes)
 
-app.listen(port, () => {
+app.listen(port, host, () => {
     console.log('Server running on port 3000')
 })
