@@ -1,9 +1,9 @@
 'use strict'
-import express from 'express'
+const express = require('express')
 import routes from '../backend/src/routes'
-import swaggerJSDoc from 'swagger-jsdoc'
-import swaggerUi from 'swagger-ui-express'
-import dotenv from 'dotenv'
+const swaggerJSDoc = require('swagger-jsdoc')
+const swaggerUi = require('swagger-ui-express')
+const dotenv = require('dotenv')
 
 dotenv.config({ path: '.env' })
 
