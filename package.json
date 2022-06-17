@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "engines": {
-    "node": ">=14.0.O", 
+    "node": ">= 0.8.14", 
     "npm": ">=7.7.0"
   },
   "dependencies": {
